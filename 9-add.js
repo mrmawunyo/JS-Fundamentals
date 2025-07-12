@@ -11,11 +11,6 @@ const arg2 = process.argv[3];
 const num1 = parseInt(arg1);
 const num2 = parseInt(arg2);
 
-// Check if both conversions resulted in valid numbers
-// Number.isNaN() is preferred over isNaN() for more reliable NaN checking.
-if (Number.isNaN(num1) || Number.isNaN(num2)) {
+console.log(add(num1, num2));
 
-} else {
-    console.log(add(num1, num2));
-}
 
